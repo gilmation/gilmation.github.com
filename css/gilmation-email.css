@@ -1,0 +1,102 @@
+/* 
+Title:		Master styles for Gilmation emails
+Author: 	hugh@gilmation.com
+
+Light Blue: #274B87
+rgb(39, 75, 135)
+
+Dark Blue: #012967
+rgb(1, 41, 103)
+
+Red: #AC171B
+rgb(172, 23, 27)
+
+Light Green: #07672A
+rgb(7, 103, 42)
+
+Medium Green: #004622
+rgb(0, 70, 34)
+
+Dark Green: #002C1B
+rgb(0, 44, 27)
+*/
+
+body {
+  font-family: "Flama Bold", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+  background: #FFF;
+}
+
+/* footer
+--------------------------------------------- */
+
+#footer {
+  margin: 0 auto;
+  font-size: 1em;
+  color: #012967;
+  color: rgb(1, 41, 103);
+  border-top: 2px solid #e2e1d4;
+}
+
+/* logo */
+
+#logo img {
+  margin: 0 0 0 0;
+  display: block;
+  border-style: none;
+}
+
+/* terms */
+
+#legal {
+  color: #012967;
+  color: rgb(1, 41, 103);
+  border-top: 2px solid #e2e1d4;
+  font-size: 60%;
+}
+
+#legal-english {
+  float: left;
+  width: 48%;
+}
+
+#legal-english h3 {
+  text-transform: capitalize;
+  margin: 1em 0 0;
+}
+
+#legal-english p {
+  line-height: 1.4em;
+  margin: 0.4em 0 0;
+}
+
+#legal-spanish {
+  float: right;
+  width: 48%;
+}
+
+#legal-spanish h3 {
+  text-transform: capitalize;
+  margin: 1em 0 0;
+}
+
+#legal-spanish p {
+  line-height: 1.4em;
+  margin: 0.4em 0 0;
+}
+
+/* misc. 
+--------------------------------------------- */
+
+a img {
+  border: none;
+}
+
+/* self-clear floats */
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
